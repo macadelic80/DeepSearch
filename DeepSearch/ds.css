@@ -1,0 +1,28 @@
+.dropdown {
+    background: #afafaf;
+    width: 243px;
+    list-style: none;
+    padding-left: 0em;
+    text-align: left;
+    margin-top: auto;
+    border: solid 0.5mm black;
+}
+
+input {
+    border: solid 0.5mm black;
+    width: 243px;
+    box-sizing: unset;
+    color: red;
+    padding: unset;
+}
+
+input:focus {
+    outline: none;
+    border-color: unset;
+    box-shadow: unset;
+}
+.dropdown-item:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
